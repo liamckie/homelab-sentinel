@@ -1,0 +1,34 @@
+services:
+  homelab-sentinel-api:
+    build: .
+    container_name: homelab-sentinel-api
+    image: homelab-sentinel-api:v0.1.0
+    restart: unless-stopped
+    networks:
+      pfsense-vlan:
+        ipv4_address: 172.20.60.52
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.homelab-sentinel-api.rule=Host(`sentinel.idp.labops.uk`)"
+      - "traefik.http.routers.homelab-sentinel-api.entrypoints=https"
+      - "traefik.http.routers.homelab-sentinel-api.tls=true"
+      - "traefik.http.routers.homelab-sentinel-api.tls.certresolver=cloudflare"
+      - "traefik.http.services.homelab-sentinel-api.loadbalancer.server.port=8000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+networks:
+  pfsense-vlan:
+    external: true
