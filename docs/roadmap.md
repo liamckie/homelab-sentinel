@@ -3,7 +3,7 @@
 
 &nbsp;
 
-# V0.1.0 — Local Sentinel application ![Status](https://img.shields.io/badge/Status-🚧%20In%20Progress-black)
+# V0.1.0 — Local Sentinel application ![Status](https://img.shields.io/badge/Status-✅%20Complete-green)
 
 <b>Goal:</b> Build and validate the smallest local version of Homelab Sentinel before introducing AWS infrastructure.
 
@@ -34,7 +34,7 @@
 
 &nbsp;
 
-# V0.2.0 — Manual AWS Learning Deployment
+# V0.2.0 — Manual AWS Learning Deployment ![Status](https://img.shields.io/badge/Status-🚧%20In%20Progress-black)
 
 <b>Goal:</b> Deploy the container manually to AWS to understand how the core services interact before automating them.
 
@@ -51,7 +51,7 @@
 
 &nbsp;
 
-# V0.3.0 — Terraform Deployment
+# V0.3.0 — Terraform Deployment ![Status](https://img.shields.io/badge/Status-⏳%20Planned-blue)
 
 <b>Goal:</b> Create a reproducible AWS environment using Infrastructure as Code.
 
@@ -71,7 +71,7 @@
 
 &nbsp;
 
-# V0.4.0 — Continuous Integration and Delivery
+# V0.4.0 — Continuous Integration and Delivery ![Status](https://img.shields.io/badge/Status-⏳%20Planned-blue)
 
 <b>Goal:</b> Automatically test, build and deploy application changes safely.
 
@@ -88,7 +88,7 @@
 
 &nbsp;
 
-# V0.5.0 — Operational Sentinel Capability
+# V0.5.0 — Operational Sentinel Capability ![Status](https://img.shields.io/badge/Status-⏳%20Planned-blue)
 
 <b>Goal:</b> Connect AWS to the homelab and provide independent outage detection.
 
@@ -105,7 +105,7 @@
 
 &nbsp;
 
-# V1.0.0 — Portfolio Release
+# V1.0.0 — Portfolio Release ![Status](https://img.shields.io/badge/Status-⏳%20Planned-blue)
 
 <b>Goal:</b> Produce a tested, documented and reproducible release suitable for continued personal use and portfolio demonstration.
 
