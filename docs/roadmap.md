@@ -34,7 +34,7 @@
 
 &nbsp;
 
-# V0.2.0 — Manual AWS Learning Deployment ![Status](https://img.shields.io/badge/Status-🚧%20In%20Progress-black)
+# V0.2.0 — Manual AWS Learning Deployment ![Status](https://img.shields.io/badge/Status-✅%20Complete-green)
 
 <b>Goal:</b> Deploy the container manually to AWS to understand how the core services interact before automating them.
 
@@ -51,7 +51,7 @@
 
 &nbsp;
 
-# V0.3.0 — Terraform Deployment ![Status](https://img.shields.io/badge/Status-⏳%20Planned-blue)
+# V0.3.0 — Terraform Deployment ![Status](https://img.shields.io/badge/Status-🚧%20In%20Progress-black)
 
 <b>Goal:</b> Create a reproducible AWS environment using Infrastructure as Code.
 
