@@ -2,3 +2,11 @@ __pycache__/
 .pytest_cache/
 *.pyc
 
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+.terraform.tfstate.lock.info
+infra/bootstrap/terraform.tfstate.*
+**/backend.hcl
