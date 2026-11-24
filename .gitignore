@@ -8,5 +8,4 @@ __pycache__/
 *.tfplan
 crash.log
 .terraform.tfstate.lock.info
-infra/bootstrap/terraform.tfstate.*
 **/backend.hcl
